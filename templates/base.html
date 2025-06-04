@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My Portfolio{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body> 
+<nav>
+    <a href="/" class="{% if active_page == 'home' %}active{% endif %}">Home</a> |
+    <a href="/about" class="{% if active_page == 'about' %}active{% endif %}">About</a> |
+    <a href="/projects" class="{% if active_page == 'projects' %}active{% endif %}">Projects</a>
+</nav>
+
+ <hr>
+
+    {% block content %}{% endblock %}
+</body>
+</html>
+
+
