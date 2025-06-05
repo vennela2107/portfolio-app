@@ -73,4 +73,8 @@ furnished to do so, subject to the following conditions:
 
 
 
+## 📄 Resume
+
+You can view or download my resume here:  
+[Download Resume](resume.pdf)
 
